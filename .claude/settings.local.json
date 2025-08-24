@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.gradlew.bat assembleDebug:*)",
+      "Bash(gradlew.bat assembleDebug:*)",
+      "Bash(gradlew:*)",
+      "Bash(./gradlew.bat:*)",
+      "Bash(./gradlew:*)",
+      "Bash(.gradlew assembleDebug)",
+      "Bash(cmd /c:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(.gradlew build)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "C:\\mnt\\c\\Users\\yonii\\Downloads",
+      "C:\\c\\Users\\yonii\\Downloads"
+    ]
+  }
+}

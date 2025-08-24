@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="start_workout"
+        android:enabled="true"
+        android:icon="@drawable/ic_dumbbell"
+        android:shortcutShortLabel="@string/shortcut_start_workout"
+        android:shortcutLongLabel="@string/shortcut_start_workout_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.fitsoul.app"
+            android:targetClass="com.fitsoul.app.MainActivity">
+            <extra android:name="shortcut" android:value="start_workout" />
+        </intent>
+    </shortcut>
+    
+    <shortcut
+        android:shortcutId="ai_workout"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/shortcut_ai_workout"
+        android:shortcutLongLabel="@string/shortcut_ai_workout_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.fitsoul.app"
+            android:targetClass="com.fitsoul.app.MainActivity">
+            <extra android:name="shortcut" android:value="ai_workout" />
+        </intent>
+    </shortcut>
+    
+    <shortcut
+        android:shortcutId="track_run"
+        android:enabled="true"
+        android:icon="@drawable/ic_cardio"
+        android:shortcutShortLabel="@string/shortcut_track_run"
+        android:shortcutLongLabel="@string/shortcut_track_run_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.fitsoul.app"
+            android:targetClass="com.fitsoul.app.MainActivity">
+            <extra android:name="shortcut" android:value="track_run" />
+        </intent>
+    </shortcut>
+    
+    <shortcut
+        android:shortcutId="view_progress"
+        android:enabled="true"
+        android:icon="@drawable/ic_strength"
+        android:shortcutShortLabel="@string/shortcut_view_progress"
+        android:shortcutLongLabel="@string/shortcut_view_progress_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.fitsoul.app"
+            android:targetClass="com.fitsoul.app.MainActivity">
+            <extra android:name="shortcut" android:value="view_progress" />
+        </intent>
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Simple theme that works with Compose - using basic Android theme -->
+    <style name="Theme.Fitsoul" parent="@android:style/Theme.Material.NoActionBar">
+        <!-- Make system bars transparent for edge-to-edge -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        
+        <!-- Enable edge-to-edge -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+        
+        <!-- Disable window content transitions that can cause issues with Compose -->
+        <item name="android:windowContentTransitions">false</item>
+    </style>
+</resources>

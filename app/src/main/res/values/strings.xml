@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitsoul</string>
+    
+    <!-- Firebase Configuration -->
+    <string name="google_api_key">AIzaSyAFcmnCtpKYuKgXrbsAxG97VG0Kc8ALwLA</string>
+    <string name="default_web_client_id">205772607210-qevli8optsbmphke941t57pelo1kgesu.apps.googleusercontent.com</string>
+    
+    <!-- App Shortcuts -->
+    <string name="shortcut_start_workout">Quick Workout</string>
+    <string name="shortcut_start_workout_long">Start a quick workout session</string>
+    <string name="shortcut_ai_workout">AI Workout</string>
+    <string name="shortcut_ai_workout_long">Generate AI-powered workout</string>
+    <string name="shortcut_track_run">Track Run</string>
+    <string name="shortcut_track_run_long">Start tracking your run</string>
+    <string name="shortcut_view_progress">View Progress</string>
+    <string name="shortcut_view_progress_long">Check your fitness progress</string>
+    
+    <!-- Notifications -->
+    <string name="notification_workout_channel">Workout Notifications</string>
+    <string name="notification_workout_channel_desc">Notifications for workout progress and reminders</string>
+    <string name="notification_progress_channel">Progress Updates</string>
+    <string name="notification_progress_channel_desc">Updates on your fitness progress and achievements</string>
+    
+    <!-- Premium Features -->
+    <string name="premium_ai_coach">AI Fitness Coach</string>
+    <string name="premium_ai_coach_desc">Get personalized workouts powered by artificial intelligence</string>
+    <string name="premium_advanced_analytics">Advanced Analytics</string>
+    <string name="premium_advanced_analytics_desc">Detailed insights into your fitness journey</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_start_workout">Start workout button</string>
+    <string name="accessibility_pause_workout">Pause workout button</string>
+    <string name="accessibility_stop_workout">Stop workout button</string>
+    <string name="accessibility_next_exercise">Next exercise button</string>
+    
+</resources>

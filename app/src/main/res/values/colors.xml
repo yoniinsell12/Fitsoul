@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fitsoul Green Theme Colors -->
+    <color name="fitness_green_primary">#4ADE80</color>
+    <color name="fitness_green_variant">#22C55E</color>
+    <color name="fitness_green_light">#10B981</color>
+    <color name="dark_green">#059669</color>
+    
+    <!-- Base colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_light">#FFF5F5F5</color>
+    <color name="gray_dark">#FF212121</color>
+    
+    <!-- Status bar and navigation -->
+    <color name="status_bar">#FF1A1A1A</color>
+</resources>

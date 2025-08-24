@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205772607210",
+    "firebase_url": "https://fitsoul-app-default-rtdb.firebaseio.com",
+    "project_id": "fitsoul-app",
+    "storage_bucket": "fitsoul-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205772607210:android:4533718c74c0c978cbd193",
+        "android_client_info": {
+          "package_name": "com.fitsoul.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205772607210-2us3a7l4brkvh4465k0vhkoqfe0mcadl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitsoul.app",
+            "certificate_hash": "8003292c9e3a51c4c4818dbbe3dd06bd0a5ae300"
+          }
+        },
+        {
+          "client_id": "205772607210-qevli8optsbmphke941t57pelo1kgesu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFcmnCtpKYuKgXrbsAxG97VG0Kc8ALwLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205772607210-qevli8optsbmphke941t57pelo1kgesu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
