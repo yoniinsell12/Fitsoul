@@ -2,6 +2,57 @@
 
 FitSoul is a modern fitness application designed to provide personalized workout experiences through AI coaching, comprehensive workout tracking, and social fitness features.
 
+## Project Technologies
+
+<img src="https://skillicons.dev/icons?i=kotlin,firebase,androidstudio,gradle,git&perline=7" />
+
+- **Kotlin**: Primary programming language
+- **Jetpack Compose**: Modern UI toolkit for native Android UI
+- **Hilt**: Dependency injection
+- **Coroutines**: Asynchronous programming
+- **Firebase**: Backend services (Auth, Firestore, Analytics)
+- **Material 3**: Design system
+- **OkHttp**: Network requests
+- **DataStore**: Preferences management
+- **Coil**: Image loading
+- **Lottie**: Advanced animations
+
+## Installation + Running The Application
+
+Steps:
+
+1. Clone the repository to your local machine:
+   ```sh
+   git clone https://github.com/yourusername/fitsoul.git
+   ```
+
+2. Open folder:
+   ```sh
+   cd fitsoul
+   ```
+
+3. Open the project in Android Studio:
+   - Launch Android Studio
+   - Select "Open an existing Android Studio project"
+   - Navigate to the cloned repository folder and click "Open"
+
+4. Set up Firebase:
+   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Add an Android app to your Firebase project with package name `com.fitsoul.app`
+   - Download the `google-services.json` file and place it in the app directory
+   - Enable Authentication, Firestore, and Analytics in your Firebase project
+
+5. Configure API Keys (Optional - for AI features):
+   - Create a file named `local.properties` in the root project directory if it doesn't exist
+   - Add the following line with your OpenRouter API key:
+     ```
+     OPENROUTER_API_KEY=your_api_key_here
+     ```
+
+6. Build and run the project:
+   - Connect an Android device or use an emulator
+   - Click the "Run" button in Android Studio
+
 ## Features
 
 ### AI Coach
@@ -25,19 +76,6 @@ FitSoul is a modern fitness application designed to provide personalized workout
 - **Location Services**: GPS tracking for outdoor workouts
 - **Offline Support**: Full functionality without internet connection
 - **Push Notifications**: Workout reminders and friend activity updates
-
-## Technologies Used
-
-- **Kotlin**: Primary programming language
-- **Jetpack Compose**: Modern UI toolkit for native Android UI
-- **Hilt**: Dependency injection
-- **Coroutines**: Asynchronous programming
-- **Firebase**: Backend services (Auth, Firestore, Analytics)
-- **Material 3**: Design system
-- **OkHttp**: Network requests
-- **DataStore**: Preferences management
-- **Coil**: Image loading
-- **Lottie**: Advanced animations
 
 ## Development Challenges & Solutions
 
@@ -63,6 +101,10 @@ FitSoul is a modern fitness application designed to provide personalized workout
 - Expanded AI coaching capabilities
 - Nutrition tracking and recommendations
 - Group workout challenges
+
+## Project Screenshots
+
+*Screenshots will be added here*
 
 ---
 
